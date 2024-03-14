@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  background-color: #332941;
+}
+
+.feature_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2em;
+  gap: 1em;
+}
+@media only screen and (max-width: 768px) {
+  .feature_card {
+    flex-direction: column;
+    font-size: 0.8em;
+  }
+}

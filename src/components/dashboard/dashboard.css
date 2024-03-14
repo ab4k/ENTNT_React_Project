@@ -1,0 +1,34 @@
+.sideNavbar {
+  width: 25%;
+  display: flex;
+  padding-top: 0.5em;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.sideNavbar img {
+  width: 1.2em;
+}
+
+.icon_container {
+  display: flex;
+  height: 2em;
+  width: 2em;
+  align-items: center;
+  justify-content: center;
+  background-color: #5d42f5;
+  padding: 2em;
+  margin-bottom: 0.5em;
+}
+.dashboard_container {
+  display: flex;
+}
+/* .order_cards_container {
+  display: flex;
+} */
+@media only screen and (min-width: 768px) {
+  .sideNavbar {
+    width: 6em;
+  }
+}

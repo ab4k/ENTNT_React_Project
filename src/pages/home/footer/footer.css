@@ -1,0 +1,23 @@
+.site-footer {
+  background-color: #0f1035;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .site-footer {
+    font-size: 0.8em;
+  }
+}
